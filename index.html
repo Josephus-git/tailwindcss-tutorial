@@ -17,72 +17,74 @@
 </head>
 
 <body class="text-slate-900 min-h-screen relative text-sm sm:text-lg">
-    <header class="flex justify-between gap-8 p-8 max-w-[1000px] mx-auto">
+    <header class="flex justify-between gap-8 p-8 max-w-[1000px] mx-auto w-full">
         <h1 class="text-2xl sm:text-3xl md:text-4xl">Auckland Maths Tutoring</h1>
         <button  class="card-button-secondary px-4 py-2 rounded-full whitespace-nowrap opacity-0 pointer-events-none">Book a session</button>
-        <div >
+        <div class="fixed top-8 right-8">
             <button class="card-button-secondary px-4 py-2 rounded-full whitespace-nowrap">Book a session</button>
         </div>
     </header>
-    <main >
-        <section id="hero" >
-            <div >
-                <h2 >Achievement Into Excellence</h2>
-                <h4 >and beyond</h4>
+
+
+    <main class="flex flex-col">
+        <section id="hero" class="flex flex-col gap-8 px-8 py-16 sm:py-20 md:py-24 max-w-[1000px] mx-auto w-full">
+            <div class="text-center font-medium flex flex-col items-center gap-2">
+                <h2 class="text-6xl sm:text-7xl md:text-8xl">Achievement Into Excellence</h2>
+                <h4 class="text-4xl sm:text-5xl md:text-6xl" >and beyond</h4>
             </div>
-            <p ><span >Book a one-on-one
+            <p class="text-center max-w-[600px] w-full mx-auto" ><span class="font-semibold">Book a one-on-one
                     private maths lesson</span> with James, a qualified Engineer and Math Teacher with over 13 years
                 of tutoring experience.</p>
-            <div >
-                <div >NCEA IB & Cambridge</div>
-                <div >Years 5 - 13</div>
-                <div >In-person & Online</div>
+            <div class="flex items-center gap-4 flex-wrap justify-center">
+                <div class="tag rank px-2 py-0.5 sm:py-1.5 rounded-full sm:text-lg md:text-xl">NCEA IB & Cambridge</div>
+                <div class="tag rank px-2 py-0.5 sm:py-1.5 rounded-full sm:text-lg md:text-xl">Years 5 - 13</div>
+                <div class="tag rank px-2 py-0.5 sm:py-1.5 rounded-full sm:text-lg md:text-xl">In-person & Online</div>
             </div>
-            <div >
-                <button>What  I teach</button>
-                <button
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-8 w-fit mx-auto my-4">
+                <button class="card-button-secondary px-4 py-2 rounded-full text-xl sm:text-2xl md:text-3xl">What  I teach</button>
+                <button class="card-button-primary px-4 py-2 rounded-full text-xl sm:text-2xl md:text-3xl"
                    >Book  a session</button>
             </div>
-            <div >
-                <p >Scroll for more</p>
-                <div></div>
+            <div class="w-fit mx-auto my-4 flex flex-col items-center gap-4">
+                <p class="indie text-slate-600">Scroll for more</p>
+                <div class="w-0.5 h-[100px] rounded-lg bg-linear-to-b from-slate-400 to-transparent"></div>
             </div>
         </section>
-        <section id="maths" >
-            <div >
-                <p >from catch up to acceleration</p>
-                <div >
-                    <h3 >What I Teach
+        <section id="maths" class="bg-slate-950 text-white px-8 py-16 sm:py-20 md:py-24">
+            <div class="w-full mx-auto max-w-[1000px] flex flex-col gap-8">
+                <p class="tag rank rounded-full px-4 py-2 text-center mx-auto">from catch up to acceleration</p>
+                <div class="flex flex-col gap-2">
+                    <h3 class="text-6xl sm:text-7xl md:text-8xl mx-auto text-center text-white">What I Teach
                     </h3>
-                    <p >I have the experience to teach you what you need to know</p>
+                    <p class="text-center mx-auto">I have the experience to teach you whats you need to know</p>
                 </div>
-                <div >
-                    <div >
-                        <h4>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16 my-10">
+                    <div class="border border-solid border-slate-800 hover:border-blue-400 p-4 rounded-lg duration-200 flex flex-col gap-4 group">
+                        <h4 class="bg-slate-950 border border-slate-800 w-fit rounded-lg px-4 py-2 text-3xl sm:text-4xl md:text-5xl -mt-8 group-hover:border-blue-400 duration-200">
                             NCEA</h4>
                         <p>&rarr; Personalized support for Levels 1, 2, and 3</p>
                         <p>&rarr; Focus on internal assessments, exams, and credits</p>
                         <p>&rarr; Assistance with problem-solving techniques and past exam papers</p>
                         <p>&rarr; Guidance on achieving Merit and Excellence standards</p>
                     </div>
-                    <div>
-                        <h4>
+                    <div class="border border-solid border-slate-800 hover:border-blue-400 p-4 rounded-lg duration-200 flex flex-col gap-4 group">
+                        <h4 class="bg-slate-950 border border-slate-800 w-fit rounded-lg px-4 py-2 text-3xl sm:text-4xl md:text-5xl -mt-8 group-hover:border-blue-400 duration-200">
                             International Baccalaureate</h4>
                         <p>&rarr; Help with SL and HL maths curriculum</p>
                         <p>&rarr; Tailored guidance for Internal Assessments (IA) and exam preparation</p>
                         <p>&rarr; In-depth support for core concepts and optional topics</p>
                         <p>&rarr; Effective strategies for high achievement in assessments</p>
                     </div>
-                    <div>
-                        <h4>
+                    <div class="border border-solid border-slate-800 hover:border-blue-400 p-4 rounded-lg duration-200 flex flex-col gap-4 group">
+                        <h4 class="bg-slate-950 border border-slate-800 w-fit rounded-lg px-4 py-2 text-3xl sm:text-4xl md:text-5xl -mt-8 group-hover:border-blue-400 duration-200">
                             Cambridge</h4>
                         <p>&rarr; Tutoring for IGCSE, AS, and A-Level maths</p>
                         <p>&rarr; Expert help with structured revision for exams</p>
                         <p>&rarr; Targeted support for past papers, exam techniques, and challenging topics</p>
                         <p>&rarr; Focus on problem-solving, reasoning, and conceptual understanding</p>
                     </div>
-                    <div>
-                        <h4>
+                    <div class="border border-solid border-slate-800 hover:border-blue-400 p-4 rounded-lg duration-200 flex flex-col gap-4 group">
+                        <h4 class="bg-slate-950 border border-slate-800 w-fit rounded-lg px-4 py-2 text-3xl sm:text-4xl md:text-5xl -mt-8 group-hover:border-blue-400 duration-200">
                             General</h4>
                         <p>&rarr; Foundational maths support for all age groups</p>
                         <p>&rarr; Build confidence in basic arithmetic, algebra, and geometry</p>
@@ -91,7 +93,7 @@
                         <p>&rarr; Preparation for general school exams and continuous assessment</p>
                     </div>
                 </div>
-                <button >Book a session</button>
+                <button class="w-fit mx-auto rounded-full px-8 py-4 card-button-secondary text-xl sm:text-2xl md:text-3xl">Book a session</button>
             </div>
         </section>
         <section id="reviews">
